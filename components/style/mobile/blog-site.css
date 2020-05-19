@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 1199px){
+    .hammer-site .flex-hammer-item{
+        min-width: 370px;
+    }
+    .blog-site{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .hammer-site .flex-hammer-item{
+        min-width: 250px;
+    }
+    .img-box-hammer-site{
+        height: 135px;
+    }
+    .blog-site{
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,319 @@
+
+@media screen and (max-width: 1250px){
+    .icon-box-header li{
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .hamburger-menu{
+        display: none;
+    }
+    .mobile-bar{
+        display: block;
+        padding-left: 12px;
+        color: white;
+        font-size: 20px;
+    }
+    .mobile-bar.dark{
+        color: black;
+    }
+    .header-flex{
+        padding-top: 17px;
+    }
+    .icon-box-header li{
+        margin-right: 12px;
+    }
+    .call-header{
+        margin-right: 12px;
+    }
+    .logo img{
+     display: none;
+ }
+    .logo img.mobile{
+     display: block;
+ }
+ .call-number-text{
+     font-size: 16px;
+ }
+ .icon-box-header li a{
+     font-size: 20px;
+ }
+ .tablet-none-phone{
+     display: none;
+ }
+ .center-search{
+     width: 100%;
+     padding-left: 30px;
+     padding-right: 30px;
+ }
+ .search-title{
+     text-align: center;
+ }
+ 
+ .search-box{
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+ }
+ .mobile-right-menu{
+     display: block;
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     top: 0;
+     left: -100%;
+     z-index: 10000;
+     -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+     transition: 0.5s;
+ }
+ .mobile-right-menu.active{
+     left: 0%;
+     -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+     transition: 0.5s;
+ }
+ .bg-mrm{
+     background: rgba(0, 0, 0, 0.58);
+     -webkit-backdrop-filter: blur(20px);
+             backdrop-filter: blur(20px);
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: 1;
+ }
+ .header-close{
+     position: absolute;
+     color: white;
+     z-index: 15;
+     right: 20px;
+     top: 25px;
+ }
+ .header-mobile-nav{
+     width: 100%;
+     position: absolute;
+     left: 0;
+     padding: 0;
+     margin: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+     list-style: none;
+     z-index: 10;
+     top: 50%;
+     overflow-y: auto;
+     -webkit-transform: translateY(-50%);
+         -ms-transform: translateY(-50%);
+             transform: translateY(-50%);
+ }
+ .header-mobile-nav li{
+     margin-bottom: 15px;
+     width: 100%;
+ }
+ .header-mobile-nav li:last-child{
+     margin-bottom: 0;
+ }
+ .header-mobile-nav li a{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     color: #FFFFFF;
+     text-decoration: none;
+ }
+ .number_img img{
+     margin-right: 13px;
+ }
+ .number_img{
+     font-style: normal;
+ font-weight: 600;
+ font-size: 18px;
+ color: #FFFFFF;
+ margin: 0;
+ }
+ .flex-number-head .number{
+     margin: 0;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     color: #FFFFFF;
+ }
+ .margin-top-60{
+     margin-top: 40px;
+ }
+ .open-help-btn-head{
+     border: 1px solid #FFFFFF;
+     -webkit-box-sizing: border-box;
+             box-sizing: border-box;
+     border-radius: 5px;
+     width: 279px;
+     height: 44px;
+     max-width: 100%;
+     font-style: normal;
+     background-color: transparent;
+     font-weight: normal;
+     font-size: 14px;
+     color: #FFFFFF;
+ }
+ }
+ @media screen and (max-width: 991px){
+     .search-input{
+         width: 500px;
+     }
+     .search-title span{
+         display: block;
+     }
+ }
+ @media screen and (max-width: 800px){
+    .icon-circle{
+        width: 25px;
+        height: 25px;
+    }
+    .icon-circle img{
+        max-width: 60%;
+    }
+ }
+ @media screen and (max-width: 767px){
+     .border-module-btn{
+         display: none;
+     }
+     .call-header{
+         display: none;
+     }
+     .icon-box-header{
+         display: none;
+     }
+     .header-flex{
+         padding-top: 0;
+         height: 100%;
+         -webkit-box-align: center;
+             -ms-flex-align: center;
+                 align-items: center;
+     }
+     .mobile-full-header{
+         padding: 0;
+         background-color: #8c9194;
+         height: 57px;
+         position: relative;
+         padding-left: 15px;
+         padding-right: 15px;
+     }
+     .mobile-full-header.two-full-header{
+         background-color: white;
+     }
+     .tablet-none-phone{
+         display: block;
+         margin-right: 22px;
+     }
+     .tablet-none-phone.dark{
+         filter: brightness(0%);
+     }
+     .mobile-bar{
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+     }
+     .mobile-header-box{
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-align: center;
+             -ms-flex-align: center;
+                 align-items: center;
+         height: 52px;
+         width: 100%;
+         padding-left: 15px;
+         padding-right: 15px;
+         background-color: white;
+     }
+     .mobile-header-box .right{
+         margin-left: auto;
+     }
+     .media-mobile{
+         padding: 0;
+         margin: 0;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         list-style: none;
+         position: relative;
+     }
+     .media-mobile li{
+         margin-right: 12px;
+         font-size: 20px;
+     }
+     .media-mobile li .fa-whatsapp{
+         color: #00A89B;
+     }
+     .media-mobile li .fa-telegram-plane{
+         color: #0199F4;
+     }
+     .media-mobile li .fa-viber{
+         color: #DD71E3;
+     }
+      .call-media-text{
+         color: #282E32;
+         font-style: normal;
+         font-weight: 600;
+         font-size: 18px;
+         margin: 0 !important;
+     }
+     .center-search{
+         padding-left: 15px;
+         padding-right: 15px;
+     }
+     .search-title{
+         font-size: 26px;
+         margin-bottom: 23px;
+     }
+     .search-input{
+         width: 100%;
+         margin-right: 0;
+         margin-bottom: 20px;
+     }
+     .search-title{
+         width: 100%;
+     }
+     .search-submit{
+         width: 100%;
+     }
+     .center-search{
+         bottom: 124px;
+     }
+     .header-commom-two{
+        height: auto;
+        display: block;
+        align-items: initial;
+        background-color: white;
+    }
+ }
+ @media screen and (max-width: 540px){
+     .banner-bg{
+         display: none;
+     }
+     .banner-bg-mobile{
+         display: block;
+     }
+ }
+
+ @media screen and (max-width: 320px){
+    .banner-bg{
+        display: none;
+    }
+    .banner-bg-mobile{
+        display: block;
+    }
+    .icon-circle{
+        width: 25px;
+        height: 25px;
+    }
+    .icon-circle img{
+        max-width: 60%;
+    }
+    .two-header-call-media{
+        font-size: 16px;
+    }
+}

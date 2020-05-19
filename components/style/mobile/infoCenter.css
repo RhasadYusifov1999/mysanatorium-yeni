@@ -1,0 +1,104 @@
+
+@media screen and (max-width: 1199px){
+    .button-box-info {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .button-box-info button{
+        margin-bottom: 10px;
+    }
+    .button-box-info button:last-child{
+        margin-bottom: 0;
+    }
+    
+    .info-box{
+        height: 328px;
+    }
+    .doctor-img.pc{
+        display: none;
+    }
+    .doctor-img.mobile{
+        display: none;
+    }
+    .doctor-img.tab{
+        display: block;
+    }
+    .doctor-img{
+        right: 10px;
+    }
+    .name-doctor{
+        margin-left: -75px;
+    }
+    .about-info span{
+        display: block;
+    }
+    .info-box{
+        padding-left: 60px;
+    }
+    .our-priorities-box{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .info-box{
+        height: 521px;
+        padding-left: 32px;
+        padding-top: 46px;
+    }
+    .flex-info{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .flex-col-info-1,
+    .flex-col-info-2{
+        width: 100%;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        height: auto;
+    }
+    .button-box-info{
+        display: block;
+    }
+    .doctor-img.tab{
+        display: none;
+    }
+    .doctor-img.mobile{
+        display: block;
+    }
+    .absolute-round{
+        top: 0;
+        right: -105px;
+    }
+    .name-doctor{
+        margin-left: -55px;
+    }
+    .title-info{
+        font-size: 18px;
+    }
+    .info-box{
+        margin-bottom: 45px;
+    }
+    
+}
+@media screen and (max-width: 340px){
+    .info-box{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .white-info-btn{
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .absolute-round{
+        right: -160px;
+    }
+    .doctor-img {
+        right: -20px;
+    }
+    .name-doctor{
+        font-size: 14px;
+    }
+    
+}

@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 1199px){
+    .map-box{
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .map-box{
+        margin-bottom: 100px;
+    }
+}

@@ -1,0 +1,210 @@
+
+.gray-contact{
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: #F6F7FB;
+    position: relative;
+    margin-bottom: 40px;
+}
+.flex-contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.col-contact{
+    width: 49%;
+    position: relative;
+    height: auto;
+}
+.col-contact:nth-child(1){
+    padding-right: 1%;
+}
+.col-contact:nth-child(2){
+    padding-left: 1%;
+}
+
+.contact-title{
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #282E32;
+    margin-bottom: 16px;
+}
+.contact-about{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #282E32;
+margin-bottom: 25px;
+}
+.flex-users{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.users-box{
+    position: relative;
+    margin-right: 15px;
+    width: 33.33333333333333%;
+}
+.circle-pp{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+}
+.circle-pp img{
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.title-manager{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #282E32;
+    margin-bottom: 0;
+}
+.rank-manager{
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+color: #282E32;
+margin-bottom: 40px;
+}
+.flex-white-btn{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+.flex-white-btn button{
+    min-width: 270px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #282E32;
+    border: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 30px;
+}
+.flex-white-btn button:last-child{
+    margin-right: 0;
+}
+.dark-circle{
+    background: #282E32;
+    width: 24px;
+    height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    margin-right: 16px;
+    color: white;
+    font-size: 8px;
+}
+.flex-white-btn button:last-child .dark-circle{
+    font-size: 12px;
+}
+.social-media-icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.social-media-icons li{
+    margin-right: 35px;
+    font-size: 30px;
+}
+.social-media-icons li a{
+    text-decoration: none !important;
+    outline: none !important;
+}
+.social-media-icons li:last-child{
+    margin-right: 0;
+}
+.social-media-icons li:nth-child(1) a{
+    color: #00A89B;
+}
+.social-media-icons li:nth-child(2) a{
+    color: #26C6DA;
+}
+.social-media-icons li:nth-child(3) a{
+    color: #DD71E3;
+}
+.social-media-icons li:nth-child(4) a{
+    color: #F96770;
+}
+.call-contact .text{
+    margin-bottom: 5px;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #282E32;
+
+}
+.call-contact .dark-number{
+    color: #282E32;
+    font-style: normal;
+font-weight: 600;
+margin: 0;
+font-size: 18px;
+}
+.call-contact .dark-number img{
+    margin-right: 13px;
+}
+.call-contact{
+    margin-bottom: 40px;
+}
+.call-btn{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #F96770;
+    border: none;
+    border: 1px solid #F96770;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 3px 10px #FFE6E2;
+            box-shadow: 0px 3px 10px #FFE6E2;
+    border-radius: 5px;
+    width: 145px;
+height: 48px;
+}
+.col-contact:last-child{
+    padding-left: 118px;
+}

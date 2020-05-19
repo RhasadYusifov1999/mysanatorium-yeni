@@ -1,0 +1,63 @@
+
+@media screen and (max-width: 1199px){
+    .flex-users{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .users-box{
+        width: 50%;
+        margin: 0;
+        padding-right: 10px;
+    }
+    .flex-white-btn{
+        display: block;
+    }
+    .flex-white-btn button{
+        margin-bottom: 10px;
+    }
+    .social-media-icons{
+        margin-bottom: 30px;
+    }
+    .gray-contact{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .col-contact{
+        padding: 0;
+        width: 100%;
+    }
+    .users-box{
+        display: none;
+    }
+    .flex-users .users-box:nth-child(1),
+    .flex-users .users-box:nth-child(2){
+        display: block;
+    }
+    .gray-contact{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .rank-manager{
+        margin-bottom: 60px;
+    }
+    .social-media-icons{
+        margin-bottom: 45px;
+    }
+    .call-contact{
+        margin-bottom: 30px;
+    }
+    .flex-white-btn{
+        display: none;
+    }
+    .col-contact:last-child{
+        padding-left: 0;
+    }
+
+    .flex-contact{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}

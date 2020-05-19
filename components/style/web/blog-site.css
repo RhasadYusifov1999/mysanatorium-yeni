@@ -1,0 +1,61 @@
+
+.title-site{
+    font-style: normal;
+font-weight: bold;
+font-size: 26px;
+color: #282E32;
+margin-bottom: 30px;
+}
+.hammer-site .flex-hammer-item a{
+    height: auto;
+}
+.img-box-hammer-site{
+    width: 100%;
+    position: relative;
+    height: 200px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.hammer-site .flex-hammer-item {
+    width: 33.33333333333333%;
+}
+.title-hammer-site{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #282E32;
+    margin-bottom: 5px;
+}
+.about-hammer-site{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #282E32;
+margin-bottom: 15px;
+}
+.blue-transfer{
+    height: 48px;
+    background: #EBF7FF;
+    border: 1px solid #0199F4;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+    padding: 13px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0199F4;
+    outline: none !important;
+}
+.blog-site{
+    margin-bottom: 40px;
+}

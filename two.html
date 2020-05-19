@@ -1,0 +1,293 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script> -->
+    <link rel="stylesheet" href="./components/common/class.css">
+    <link rel="stylesheet" href="./components/common/web/header.css">
+    <link rel="stylesheet" href="./components/common/mobile/header.css">
+    <link rel="stylesheet" href="./components/common/web/filter.css">
+    <link rel="stylesheet" href="./components/common/mobile/filter.css">
+    <link rel="stylesheet" href="./css_lib/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/62ca3e5112.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="bg-e5">
+    <section class="mobile-right-menu">
+        <img src="./images/close-img.png" alt="" onclick="closeHeadMenu()" class="header-close">
+        <div class="bg-mrm"></div>
+        <ul class="header-mobile-nav">
+            <li><a href="#">Поиск курорта</a></li>
+            <li><a href="#">Поск лечения</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">AZN</a></li>
+            <li class="flex-number-head margin-top-60">
+                <p class="number">Бесплатный по Азербайджану:</p>
+                <p class="number_img"><img src="./images/phone-img.png" alt=""> +994 51 672-03-26</p>
+            </li>
+            <li class="flex-number-head">
+                <p class="number">Бесплатный по Азербайджану:</p>
+                <p class="number_img"><img src="./images/phone-img.png" alt=""> +994 51 672-03-26</p>
+            </li>
+            <li class="flex-number-head">
+                <p class="number">Бесплатный по Азербайджану:</p>
+                <p class="number_img"><img src="./images/phone-img.png" alt=""> +994 51 672-03-26</p>
+            </li>
+            <li>
+                <button class="open-help-btn-head">
+                    Заказать звонок
+                </button>
+            </li>
+            
+        </ul>
+        
+    </section>
+
+    <section class="header-commom-two">
+        <!-- absolute block  -->
+        <div class="banner-bg-filter"></div>
+        <!-- absolute block  end -->
+        <div class="min-box  mobile-full-header two-full-header">
+            <div class="header-flex">
+                <div class="logo">
+                    <img src="./images/other-logo.png" alt="">
+                    <img src="./images/other-mobile.png" class="mobile" alt="">
+                </div>
+                <div class="header-right">
+                    <ul class="hamburger-menu">
+                        <li >
+                            <a href="#" class="dark-text"> Поиск курорта</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dark-text">Поск лечения</a>
+                        </li>
+                    </ul>
+                    <ul class="icon-box-header color-social-media">
+                        <li>
+                            <a href="#"><div class="icon-circle wp">
+                                <img src="./images/whatsapp-icon-white.png" alt="">
+                            </div></a>
+                        </li>
+                        <li>
+                            <a href="#"><div class="icon-circle tg">
+                                <img src="./images/plane-icon-white.png" alt="">
+                            </div></a>
+                        </li>
+                        <li>
+                            <a href="#"><div class="icon-circle vb">
+                                <img src="./images/viber-icon-white.png" alt="">
+                            </div></a>
+                        </li>
+                    </ul>
+                    <div class="call-header">
+                        <p class="call-top-text dark-text">Бесплатный по Азербайджану:</p>
+                        <p class="call-number-text dark-text">
+                            <img src="./images/phone.png" alt=""> +994 51 672-03-26
+                        </p>
+                    </div>
+                    <button class="border-module-btn green">
+                        Заказать звонок
+                    </button>
+                    <ul class="hamburger-menu right-hamburger">
+                        <li >
+                            <a class="dark-text" href="#">О нас</a>
+                        </li>
+                        <li >
+                            <a class="dark-text" href="#">Контакты</a>
+                        </li>
+                        <li >
+                            <a class="dark-text" href="#">AZN</a>
+                        </li>
+                    </ul>
+                    <div class="mobile-bar dark">
+                        <img src="./images/phone.png" class="tablet-none-phone dark" alt="">
+                        <i class="fa fa-bars dark" onclick="openHeadMenu()"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-header-box">
+            <ul class="media-mobile">
+                <li>
+                    <a href="#"><div class="icon-circle wp">
+                        <img src="./images/whatsapp-icon-white.png" alt="">
+                    </div></a>
+                </li>
+                <li>
+                    <a href="#"><div class="icon-circle tg">
+                        <img src="./images/plane-icon-white.png" alt="">
+                    </div></a>
+                </li>
+                <li>
+                    <a href="#"><div class="icon-circle vb">
+                        <img src="./images/viber-icon-white.png" alt="">
+                    </div></a>
+                </li>
+            </ul>
+            <div class="right">
+                <p class="call-media-text dark-text two-header-call-media">
+                    <img src="./images/dark-phone.png" alt=""> +994 51 672-03-26
+                </p>
+            </div>
+        </div>
+    
+    </section>
+
+    <div class="basename">
+        <div class="min-box">
+            <ul>
+                <li><a href="#">Домашняя страница <i class="fa fa-angle-right"></i></a></li>
+                <li><a href="#">Азербайджан <i class="fa fa-angle-right"></i></a></li>
+                <li><a class="active" href="#">Нафталан</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="filter-section">
+        <div class="min-box">
+            <div class="flex-filter">
+                <div class="search-input-box item_filter" data-item="1">
+                    <input type="text" class="src-inp" placeholder="Город, Страна" onblur="closeFilter()" onfocus="openFilter(1)"> 
+                    <div class="search-filter-box">
+                        <ul>
+                            <li>Нафталан, Азербайджан </li>
+                            <li>Гянджа, Азербайджан </li>
+                            <li>Баку, Азербайджан </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="calendar-box-item">
+                    <div class="flex-calendar-btn-double">
+                        <div class="date-item">
+                            <p class="gray-date">
+                                Заезд
+                            </p>
+                            <p class="black-selected-date">ср, 25 июня</p>
+                        </div>
+                        <div class="date-item">
+                            <p class="gray-date">
+                                Отъезд
+                            </p>
+                            <p class="black-selected-date">ср, 31 июня</p>
+                        </div>
+                    </div>
+                    <div class="calendar-item">
+                        
+                        <div class="bottom-complate">
+                            <button class="btn-blue">Готово</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-count" onclick="open_people_list(this)">
+                    <div class="black-people-bg" onclick="close_people_list()"></div>
+                    <div class="count-people-btn">
+                        <p class="count-gray">Количество людей</p>
+                        <p class="count-selected">1 взрослых - 0 ребёнок - 1 номера</p>
+                    </div>
+                    <div class="count-people-box">
+                        <div class="room-parent-box">
+                            <div class="item-room" >
+                                <div class="room-head">
+                                    <p class="title-head">
+                                        Номер 1
+                                    </p>
+                                    <button class="btn-remove-room remove-event" onclick="remove_room(this)">
+                                        Удалить номер
+                                    </button>
+                                </div>
+                                <div class="content-room">
+                                    <div class="box-content-people">
+                                        <div class="box-flex-control adult-box">
+                                            <div class="item-flex-control adult-box-item visable-active">
+                                                <p class="title-ifc">
+                                                    1 Взрослый
+                                                </p>
+                                                <div class="auto-box">
+                                                    <div class="cs">
+                                                       <div class="popup-cs">
+                                                           <div class="bg-cs" onclick="closeCustomSelect()"></div>
+                                                           <div class="selected-item-cs">
+                                                               <div class="selected-item-cs-head">
+                                                                   <p>Возраст ребёнка</p>
+                                                               </div>
+                                                               <div class="content-selected-cs">
+                                                                   <ul>
+                                                                       <li>1-ёх разовое питание без лечения</li>
+                                                                       <li >2-ёх разовое питание без лечения</li>
+                                                                       <li data-selected>3-ёх разовое питание без лечения</li>
+                                                                       <li>4-ёх разовое питание без лечения</li>
+                                                                       <li>5-ёх разовое питание без лечения</li>
+                                                                   </ul>
+                                                               </div>
+                                                           </div>
+                                                       </div>
+                                                       <div class="cs-head" onclick="openCustomSelect(this)">
+                                                            <p class="text-cs">
+                                                                3-ёх разовое питание без лечения
+                                                            </p>
+                                                            <i class="fa fa-angle-down"></i>
+                                                       </div>
+                                                    </div>
+                                                    <div class="remove-item-control remove-event" onclick="remove_appendix_item(this)">
+                                                        <i class="fa fa-close"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-button-100">
+                                            <div class="flex-70">
+                                                <button class="add-content-button" onclick="add_people(this)">Добавить взрослого</button>
+                                            </div>
+                                        </div>
+                                        <div class="box-flex-control child-box">
+                                        </div>
+                                        <div class="box-button-100">
+                                            <div class="flex-70">
+                                                <button class="add-content-button" onclick="add_child(this)">Добавить ребёнка</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-add-room-btn">
+                            <button class="add-content-button" onclick="add_new_room()">Добавить номер</button>
+                            <button class="add-content-button blue-room-btn" onclick="close_people_list()">Подтвердить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="suply-box">
+                    <div class="flex-suply">
+                        <p class="gray-suply">
+                            Питание
+                        </p>
+                        <p class="selected-suply">
+                            3-ёх разовое питание с лечением
+                        </p>
+                    </div>
+                    <div class="item-module-suply">
+                        <ul>
+                            <li>3-ёх разовое питание с лечением</li>
+                            <li>3-ёх разовое питание без лечения</li>
+                            <li>2-ух разовое питание с лечением</li>
+                            <li>2-ух разовое питание без лечения</li>
+                            <li>Только завтрак</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-sub-filter">
+                    <img src="./images/src-filter.png" alt="">
+                    <p>Узнать цены</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ 
+    <script src="./js_lib/jquery.js"></script>
+    <script src="./js_lib/hammer.min.js"></script>
+    <script src="./js_lib/bootstrap.min.js"></script>
+    <script src="./components/js/main.js"></script>
+</body>
